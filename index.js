@@ -16,7 +16,10 @@ module.exports = {
       return config;
     }
 
-    let version = require('git-repo-version')(null, this.project.root);
+    let version = require('git-repo-version')({
+      shaLength: null,
+      projectPath: this.project.root,
+    });
     if (version && baseConfig.APP) {
       baseConfig.APP.version = version;
     }
