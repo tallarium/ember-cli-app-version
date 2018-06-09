@@ -51,7 +51,7 @@
   ],
   "dependencies": {
     "ember-cli-babel": "^6.12.0",
-    "git-repo-version": "^1.0.2"
+    "git-repo-version": "tallarium/git-repo-version#054647a14d341368f7f38d2cdac2bcbf2b3aa1fb"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
